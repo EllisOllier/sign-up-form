@@ -14,11 +14,11 @@
 .background-container {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 45%;
     height: 100vh;
     background-image: url("../imgs/background.jpg");
     background-size: cover;
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
 
 .logo-container {
@@ -37,8 +37,9 @@
 
 .logo-container h1 {
     align-self: center;
+    justify-self: flex-end;
     margin-left: 35px;
-    font-size: 60px;
+    font-size: 3rem;
     font-family: var(--default-font);
 }
 
@@ -52,6 +53,7 @@
 }
 
 .signup-container {
+    flex-shrink: 2;
     background-color: rgb(249, 250, 251);
     width: 100%;
 }
