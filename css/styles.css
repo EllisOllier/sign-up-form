@@ -79,6 +79,12 @@ label {
     display: inline-block;
 }
 
+input {
+    border: 1px solid rgb(128, 130, 133);
+    border-radius: 5px;
+    padding: 3px;
+}
+
 legend {
     padding-top: 50px;
 }
@@ -116,4 +122,9 @@ span {
 
 .login-message {
     padding: 30px;
+}
+
+#match-password {
+    color: red;
+    font-size: 12px;
 }
