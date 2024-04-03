@@ -11,17 +11,58 @@
     <script src="./js/script.js" defer></script>
 </head>
 <body>
-    <div class="background-container">
-        <div class="logo-container">
-            <img src="./imgs/wolf.png" alt="image of wolf">
-            <h1>Arctern</h1>
+    <div class="container">
+        <div class="background-container">
+            <div class="logo-container">
+                <img src="./imgs/wolf.png" alt="image of wolf">
+                <h1>Arctern</h1>
+            </div>
+            <div class="link-container">
+                <a href="https://www.flaticon.com/free-icons/wolf" title="wolf icons" target="_blank">Wolf Icon</a>
+                <a href="https://unsplash.com/photos/a-man-standing-in-the-middle-of-an-ice-cave-Z052N0BAQuE" target="_blank">Image Source</a>
+            </div>
         </div>
-        <div class="link-container">
-            <a href="https://www.flaticon.com/free-icons/wolf" title="wolf icons" target="_blank">Wolf Icon</a>
-            <a href="https://unsplash.com/photos/a-man-standing-in-the-middle-of-an-ice-cave-Z052N0BAQuE" target="_blank">Image Source</a>
+        <div class="signup-container">
+            <p class="welcome-message">Welcome to Arctern this is where your journey begins and where you will encounter the natural beauty of the arctic tundras <br><br> Join us now!</p>
+
+            <form>
+                <fieldset>
+                    <legend>Embark on your adventure!</legend>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone-number">Phone Number</label>
+                            <input type="text" id="phone-number" name="phone-number" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirm-password" name="confirm-password" required>
+                        </div>
+                    </div>
+                </fieldset>
+                <button type="submit" id="create-account">Create Account</button>
+                <p class="login-message">Already have an account? <span>Log in</span></p>
+            </form>
         </div>
     </div>
-
-    
 </body>
 </html>
